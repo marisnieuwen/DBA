@@ -79,8 +79,8 @@ $bank = [
 
 // News variables
 $news = [
-    "newsHead" => "Nulla porttitor",
-    "newsTitle" => "Laatste nieuws",
+    "head" => "Nulla porttitor",
+    "title" => "Laatste nieuws",
     "articleButton" => "Lees artikel",
     "moreNewsButton" => "Bekijk al het nieuws",
 ];
@@ -259,10 +259,10 @@ $footer = [
         <section class="news container-fluid">
             <div class="container">
                 <div class="col-md-12 text-center">
-                    <h5 id="newstop"><?= $news['newsHead'] ?></h5>
+                    <h5 id="newstop"><?= $news['head'] ?></h5>
                 </div>
                 <div class="col-md-12 text-center">
-                    <h2><?= $news['newsTitle'] ?></h2>
+                    <h2><?= $news['title'] ?></h2>
                 </div>
                 <!-- column 1 -->
                 <?php for ($x = 0; $x <= 5; $x++) : ?>
