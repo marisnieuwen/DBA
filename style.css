@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: #fff;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  -webkit-text-size-adjust: none;
+}
+
+body h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+body h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+body h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+body h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+body h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+body p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Icon margin */
+i {
+  margin-left: 0.5em;
+}
+/* Blue container */
+
+.blue-container {
+  position: relative;
+  background: #13395c;
+  justify-content: space-between;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #fff;
+}
+
+/* Navigation */
+
+.active-link {
+  border-bottom: 2px solid #fff;
+}
+
+.nav-container {
+  position: relative;
+  background: #13395c;
+  padding: 2rem 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-top: 0.3125rem;
+  width: 65px;
+  height: 65px;
+}
+
+.nav-items {
+  font-weight: 600;
+  font-size: 18px;
+  width: 60%;
+}
+
+.nav-container a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-container a:hover {
+  color: #a2cee9;
+  text-decoration: underline;
+}
+
+.nav-container a:active {
+  text-decoration: underline;
+}
+
+/* Header */
+
+.header-container {
+  background-image: url("assets/header.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 583px;
+}
+
+.header-content {
+  margin-top: 7em;
+}
+.header-content h1 {
+  color: #fff;
+}
+
+.header-content h5 {
+  margin-top: 1.5em;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* */
+
+.break-dba {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+#question {
+  font-weight: 600;
+  color: #707070;
+}
+
+.break-dba h2 {
+  color: #13395c;
+  margin-bottom: 1em;
+}
+
+.break-dba p {
+  color: #13395c;
+}
+
+/* Kennisbank */
+
+#title {
+  color: #fff;
+  font-weight: 600;
+}
+
+#underline {
+  display: inline-block;
+  color: #fff;
+  width: 396px;
+  height: 123px;
+  margin-bottom: 0.5em;
+}
+
+.card {
+  height: 400px;
+  width: 350px;
+  border: 0;
+  text-align: left;
+  margin-bottom: 3em;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 0px 10px 0px rgba(255, 255, 255, 0.25);
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #707070;
+  height: 31px;
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d3859;
+  text-decoration: none;
+  width: 299px;
+  height: 114px;
+}
+
+.card-text:hover {
+  color: #1d3859;
+  text-decoration: underline;
+}
+
+.btn.btn-outline-secondary {
+  color: #fff;
+  background: #13395c;
+  width: 237px;
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  font-size: 16px;
+  font-weight: 600px;
+  text-decoration: none;
+  margin-top: 3em;
+}
+
+.btn.btn-outline-secondary:hover {
+  color: #13395c;
+  background: #fff;
+  border: none;
+}
+
+.btn.btn-outline-secondary img {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+/* Nieuws */
+.news.container-fluid {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.news h2 {
+  color: #13395c;
+  margin-bottom: 1.5em;
+}
+
+.card.mb-3 {
+  width: 100%;
+  height: 312px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-title.news {
+  height: 85px;
+}
+
+.card-title p {
+  color: #1d3859;
+  font-weight: 700;
+  font-size: 18px !important;
+}
+
+.card-body.news {
+  font-size: 16px;
+  color: #1d3859;
+  width: 80%;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+.btn-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.newstext {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background: #13395c;
+  border: 0.5px solid #707070;
+  border-radius: 5px 0px;
+  font-size: 16px;
+  font-weight: 600px;
+  text-decoration: none;
+  padding: 1.375rem 2.5rem;
+}
+
+.btn.btn-primary:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.btn.btn-outline-primary {
+  color: #13395c;
+  background: #fff;
+  width: 237px;
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid #13395c;
+  font-size: 16px;
+  font-weight: 600px;
+  text-decoration: none;
+  margin-top: 3em;
+}
+
+.btn.btn-outline-primary:hover {
+  color: #fff;
+  background: #13395c;
+  border: none;
+}
+
+/* Add elipses to paragraph*/
+.elipses {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Sprekers */
+
+.names {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  color: #fff;
+  margin-top: 2em;
+}
+
+.title {
+  color: #fff;
+  text-align: left;
+  font-weight: 400px;
+  font-size: 18px;
+  margin-top: 2.5em;
+}
+
+#topline {
+  font-weight: 400;
+}
+
+.namelink {
+  color: #fff;
+  text-align: left;
+}
+
+.namelink:hover {
+  color: #a2cee9;
+}
+
+/* About */
+
+.video {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin-top: 3em;
+}
+
+#video-style {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+footer {
+  margin-top: 2em;
+}
+
+footer h5,
+h6 {
+  font-weight: 400;
+  text-align: left;
+}
+
+footer h4 {
+  text-align: left;
+}
+
+footer a {
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+}
+
+footer a:hover {
+  color: #a2cee9;
+}
+
+footer ul {
+  list-style: none;
+  display: block;
+  text-align: left;
+}
+
+#logo-footer {
+  height: 65px;
+  width: 65px;
+}
+
+#copy {
+  margin-top: 5em;
+  font-weight: 400;
+}
+
+.list-group.list-group-horizontal.list-unstyled {
+  justify-content: flex-start;
+  margin-top: 1.03em;
+}
+
+.list-unstyled.footer > li {
+  margin-bottom: 0.5em;
+}
+
+#socials {
+  margin-right: 0.9375em;
+}
+
+#empty-space {
+  visibility: hidden;
+}
